@@ -6,17 +6,34 @@ body {
 	background-size:cover;
 }
 #header{
-	margin-left: 740px;
+	margin-left: 672px;
 
+}
+#header > div{
+	display: inline-block;
+	width: 44px;
+	height: 33px;
 }
 #subscribe{
 	padding-right: 60px;
-}
-#header > div{
-	background: blue;
-	font-size: 37px;
 
 }
+ 
+.icon {
+	background-size: 35px;
+	display: inline-block;
+	border-width: 10px;
+	
+	background-repeat: no-repeat;
+
+}
+.fa{
+	font-size: 30px;
+	text-align: center;
+
+
+}
+
 #header > p{
    font-family: sans-serif;
    color: white;
@@ -70,21 +87,20 @@ body {
 	width: 1000px;
 }
 #story{
-    height: 300px;
     margin-top:15px;
-    margin-right: 20px;
     padding-top: 40px;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    display: flex;
+    width:100%;
 }
 .about{
-	display: inline-table;
+
 	font-family: sans-serif;
 	width: 300px;
-	height: 300px;
 	background-color: white;
 	background-size: 300px 255px;;
     padding: 0 20px 0 20px;
-    margin-right: 10px;
 
 }
 h3{
@@ -99,13 +115,14 @@ h5:hover{
 	color: #ccc;
 }
 
-#contain {
+#box {
   text-align:center;
   width:900px;
   margin:30px auto;
+
 }
 
-.skater {
+.item {
   background:#000;
   border:1px solid #fff;
   color:#fff;
@@ -113,30 +130,59 @@ h5:hover{
   width:300px;
   height:200px;
   float:left;
+
+}
+.item:first-child {
+	width: 320px;
+	height:235px;
+	background-image: url("../images/sk8er-4.png"); 
+	margin: 0 0 11px -48px;
+	background-position: -134px -8px;
+	background-repeat: no-repeat;
+}
+.item:nth-child(2){
+	width: 292px;
+	height:235px;
+	background-image: url("../images/sk8er-3.png"); 
+	margin: 0 0 0 16px;
+	background-position: -48px -4px;
+	background-repeat: no-repeat;
 }
 
-.skater:nth-child(3) {
+.item:nth-child(3) {
+	background-image: url("../images/sk8er-1.png"); 
   clear:left;
-  width:600px;
+  height: 218px;
+  width:628px;
+  margin: 0px 0 0 -48px;
+  background-position: -3px -93px;
+  background-repeat: no-repeat;
 }
 
- .skater:nth-child(4) {
-   height:400px;
-   margin-top:-200px;
+ .item:nth-child(4) {
+ 	background-image: url("../images/sk8er-2.png"); 
+   height:465px;
+   width: 300px;
+   
    line-height:400px;
+   background-position: -417px 1px;
+   background-repeat: no-repeat;
+    margin: -247px 0 0 20px
+   
  }
 
 #prefooter{
-	display: inline-block;
+	display: flex;
 	height: 350px;
     width: 1000px;
     border: 10px solid white;
     background-color: white;
+    margin-top: 50px;
+    justify-content:space-between;
+    padding-top: 30px;
+}
 
-}
-.board{
-	display: inline-block;
-}
+
 #footer{
 	display: inline-block;
 	height: 350px;
@@ -144,9 +190,16 @@ h5:hover{
     border: 10px solid white;
     background-color: white;
     margin-top: 30px;
+
 }
-.contact{
-	flex-direction: column;
+.contact > div{
+	background: grey;
+	font-size: 37px;
+	color: #ccc
+
+}#footer > .icon{
+	font-size: 5px;
+
 }
 
 
