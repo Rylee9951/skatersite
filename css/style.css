@@ -135,6 +135,7 @@ h5:hover{
   font-size: 46px;
   font-weight: bold;
   font-family: sans-serif;
+  padding-top: 60px;
 
   
 
@@ -175,6 +176,7 @@ h5:hover{
    background-repeat: no-repeat;
     margin: -265px 0 0 12px;
    
+   
  }
 
 #prefooter{
@@ -200,11 +202,39 @@ h5:hover{
 .contact > div{
 	background-color: #ddd;
 	font-size: 14px;
-	color: #ccc
+	color: #ccc;
 
 }#footer > .icon{
 	font-size: 5px;
 
 }
+.contact {
+	float: left;
+	margin: 0 5px 5px 20px;
+	width: 357px;
+	height: 200px;
+}
 
+.contact:nth-child(2){
+	float: right;
+	width: 433px;
+	
+}
+input{
+	width: 408px;
+	height: 48px;
+	
+	margin-top: 20px;
+}
+textarea{
+	width: 408px;
+	margin-top: 20px;
+}
+
+button {
+	background-color: #B4292E;
+	color: white;
+	float: right;
+	margin-right: 25px;
+}
 
