@@ -126,11 +126,27 @@ h5:hover{
    line-height:400px;
  }
 
-.prefooter{
+#prefooter{
+	display: inline-block;
 	height: 350px;
     width: 1000px;
     border: 10px solid white;
-}
+    background-color: white;
 
+}
+.board{
+	display: inline-block;
+}
+#footer{
+	display: inline-block;
+	height: 350px;
+    width: 1000px;
+    border: 10px solid white;
+    background-color: white;
+    margin-top: 30px;
+}
+.contact{
+	flex-direction: column;
+}
 
 
