@@ -4,8 +4,9 @@ html {box-sizing:border-box;}
 body {
 	background-image: url("../images/bg.jpg");
 	background-size:cover;
-	background-position: -437px 11px;
+	background-position: -437px 0;
 	background-repeat: no-repeat;
+	
 }
 #header{
 	margin-left: 670px;
@@ -25,7 +26,7 @@ body {
 .icon {
 	background-size: 35px;
 	display: inline-block;
-	border-width: 10px;
+	
 	
 	background-repeat: no-repeat;
 
@@ -33,7 +34,7 @@ body {
 .fa{
 	font-size: 30px;
 	opacity: 0.2;
-    filter: alpha(opacity=50)
+    filter: alpha(opacity=50);
     
     justify-content: space-around;
 
@@ -124,12 +125,7 @@ h5{
 h5:hover{
 	color: #ccc;
 }
-#arrow{
-	font-size: 30px
-	position:absolute;
-	left: 10px;
 
-}
 
 #box {
   text-align:center;
@@ -244,12 +240,18 @@ h5:hover{
 input{
 	width: 408px;
 	height: 48px;
-	
 	margin-top: 20px;
+	border-top: 5px solid #B2B2B2;
+    border-left: 5px solid #B2B2B2;
+    font-size: 18px;
 }
 textarea{
 	width: 408px;
+	height: 138px;
     margin: 20px 0 20px 0;
+    border-top: 5px solid #B2B2B2;
+    border-left: 5px solid #B2B2B2;
+    font-size: 18px;
 }
 
 button {
@@ -260,5 +262,8 @@ button {
 	width: 200px;
 	height: 30px;
 	border-style: none;
+}
+button:hover{
+	color: black;
 }
 
