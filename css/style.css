@@ -16,30 +16,32 @@ body {
 	display: inline-block;
 	width: 44px;
 	height: 37px;
+	text-align: center;
+	padding-top: 4px;
+
 }
 #subscribe{
-	padding-right: 73px;
+	padding-right: 93px;
 
 }
-
- 
 .icon {
 	background-size: 35px;
-	display: inline-block;
-	
-	
+	display: inline-block;	
 	background-repeat: no-repeat;
+
+
 
 }
 .fa{
 	font-size: 30px;
 	opacity: 0.2;
     filter: alpha(opacity=50);
-    
     justify-content: space-around;
 
 
 }
+
+
 
 #header > p{
    font-family: sans-serif;
@@ -221,8 +223,11 @@ h5:hover{
 
 }
 #footer > .icon{
-	font-size: 5px;
+	font-size: 3px;
 
+}
+#footer > .fa{
+	font-size: 3px;
 }
 .contact {
 	float: left;
@@ -231,6 +236,16 @@ h5:hover{
 	height: 200px;
 
 }
+.contact > div{
+	display: inline-block;
+	width: 30px;
+	height: 37px;
+	text-align: center;
+	padding-top: 4px;
+
+}
+
+
 
 .contact:nth-child(2){
 	float: right;
