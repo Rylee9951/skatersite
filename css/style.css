@@ -6,10 +6,14 @@ body {
 	background-size:cover;
 	background-position: -437px 0;
 	background-repeat: no-repeat;
+
 	
 }
+#container{	
+	width: 1000px;
+}
 #header{
-	margin-left: 670px;
+	margin-left: 520px;
 
 }
 #header > div{
@@ -60,6 +64,7 @@ body {
 	padding-left:0;
 	display:flex;
 	justify-content:space-between;
+	width: 1000px;
 
 }
 .navbutton:hover{
@@ -103,7 +108,7 @@ body {
     justify-content: space-between;
     flex-wrap: nowrap;
     display: flex;
-    width:100%;
+    width:1000px;
 
 }
 .about{
@@ -132,7 +137,7 @@ h5:hover{
 #box {
   text-align:center;
   width:1000px;
-  margin:30px auto;
+  margin:30px 0;
 
 }
 
